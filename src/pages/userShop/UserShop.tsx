@@ -6,9 +6,9 @@ const UserShop: React.FC = (): JSX.Element => {
   const [state, setState] = useContext(Context);
   return (
     <Container>
-      <h1>{state.produtos[0].nome}</h1>
-      <h1>{state.produtos[0].preco}</h1>
       <h1>{state.nome}</h1>
+      <h1>{state.idade}</h1>
+      <h1>{state.trabalho}</h1>
     </Container>
   );
 };
